@@ -2,3 +2,6 @@ lesson_8 ссылки.txt
 
 newPD/
 oldPD/
+ml_env/
+
+__pycache__
