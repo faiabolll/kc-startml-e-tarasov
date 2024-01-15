@@ -5,7 +5,6 @@ from sqlalchemy.sql import text
 
 class User(Base):
     __tablename__ = 'user'
-    __table_args__ = {"schema": "cd"}
 
     age = Column(Integer)
     city = Column(String)

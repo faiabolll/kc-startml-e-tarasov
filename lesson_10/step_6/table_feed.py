@@ -6,9 +6,8 @@ from sqlalchemy.sql import text
 
 class Feed(Base):
     __tablename__ = 'feed_action'
-    __table_args__ = {"schema": "cd"}
 
     action = Column(String)
-    post_id = Column(String, ForeignKey("cd.post.id"))
+    post_id = Column(String, ForeignKey("cd.post.id"), name='post_id', primary_key=True)
     time = Column(datetime)
-    user_id = Column(String, ForeignKey("cd.user.id"))
+    user_id = Column(String, ForeignKey("cd.user.id"), name='user_id')
