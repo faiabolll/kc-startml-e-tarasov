@@ -1,7 +1,12 @@
 lesson_8 ссылки.txt
+lesson_8/
+airflow/
+*.csv
+
 
 newPD/
 oldPD/
 ml_env/
+airflow/.git/
 
 __pycache__
