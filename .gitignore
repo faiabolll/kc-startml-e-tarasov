@@ -2,6 +2,7 @@ lesson_8 ссылки.txt
 lesson_8/
 airflow/
 *.csv
+*.xlsx
 
 
 newPD/
