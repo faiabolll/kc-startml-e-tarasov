@@ -11,3 +11,7 @@ ml_env/
 airflow/.git/
 
 __pycache__
+*-checkpoint.ipynb
+*.tsv
+all-MiniLM-L6-v2/
+.ipynb_checkpoints/
