@@ -3,7 +3,8 @@ lesson_8/
 airflow/
 *.csv
 *.xlsx
-
+datasets/
+dl_4/data/
 
 newPD/
 oldPD/
